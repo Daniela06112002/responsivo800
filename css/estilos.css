@@ -1,0 +1,639 @@
+body{
+    background: #F0E7E5;
+}
+/*VIsta de Inicio de Sesión*/
+#login{
+    color: #F0E7E5; 
+    background: linear-gradient(90deg, rgba(156,147,181,100) 
+    0%, rgba(198, 175, 198,100) 100%);
+    width: 370px;
+    height: 500px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#login h1{
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    font: italic 300% arial;
+}
+
+#login p{
+    text-align: right;
+    font: 100% arial;
+    padding: 50px;
+}
+
+#login a:link{
+    color: #ffffff;
+}
+
+#login a:visited{
+    color: #ffffff;
+}
+
+#login a:hover{
+    color: #cccccc;
+}
+
+.caja{
+    border-radius: 25px;
+    width: 80%;
+    height: 40px;
+    background: #ffffff;
+    border-style: hidden;
+    font-size: 16px;
+    text-align: center;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.Usuario{
+    background-image: url(../img/usuario.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.Contrasena{
+
+    background-image: url(../img/contraseña.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.boton{
+    border-radius: 25px;
+    width: 80%;
+    height: 45px;
+    color: #333333;
+    background: #d8bcc2;
+    border-style: hidden;
+}
+
+/*Diseño del menu de cada vista*/
+.menu{
+    color: #F0E7E5;
+    background-color: #9C93B5;
+    float: left;
+    width: 13%;
+    font: 100% arial;
+    text-align: center;
+    min-height:100vh ;
+}
+
+ul.apartados {
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.apartados li{
+    color: #ffffff;
+    font: 150% arial;
+    text-align: left;
+    padding: 10px;
+}
+
+ul.apartados li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul.apartados li a:hover{
+    background: #8a5082;
+    padding-right: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul.apartados li a:active{
+    background: #705f93;
+    padding-right: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icono {
+    background-size: 24px;
+    padding-left: 32px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.principal {
+    background-image: url(../img/principal.png);
+}
+.cliente {
+    background-image: url(../img/cliente.png);
+}
+.servicio {
+    background-image: url(../img/servicios.png);
+}
+.trabajador {
+    background-image: url(../img/trabajador.png);
+}
+.venta {
+    background-image: url(../img/ventas.png);
+}
+.salir {
+    background-image: url(../img/salir.png);
+}
+
+/*Diseño del area del panel de cada vista*/
+.panel{
+    background: #ecececff;
+    float: left;
+    width: 87%;
+    min-height: 99vh;
+}
+.panel h1{
+    color: #808080ff;
+    font: 200% arial;
+    font-style: bold;
+    padding-left: 100px;
+}
+    /*Diseño de la vista Principal*/
+/*Diseño de Targeta de Clientes*/
+.targ-Cliente{
+    
+    background: #9C93B5;
+    float: left;
+    width: 360px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Cliente img{
+    width: 80px;
+    float: left;
+}
+.targ-Cliente h1{
+    color: #ffffff;
+    font-size: 40px;
+    padding-right: 20px;
+
+}
+.targ-Cliente h2{
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+/*Diseño de Targeta de Servicios*/
+.targ-Servicios{
+    background: #C6AFC6;
+    float: left;
+    width: 360px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Servicios img{
+    width: 80px;
+    float: left;
+}
+.targ-Servicios h1{
+    color: #ffffff;
+    font-size: 40px;
+    padding-right: 20px;
+
+}
+.targ-Servicios h2{
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+/*Diseño de Targeta de Trabajadores*/
+.targ-Trabajadores{
+    background: #705f93;
+    float: left;
+    width: 360px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Trabajadores img{
+    width: 80px;
+    float: left;
+}
+.targ-Trabajadores h1{
+    color: #ffffff;
+    font-size: 40px;
+    padding-right: 20px;
+
+}
+.targ-Trabajadores h2{
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+/*Diseño de Targeta de Reportes*/
+.targ-Reporte{
+    margin-top: 30px;
+    background: #9C93B5;
+    float: left;
+    width: 750px;
+    height: 360px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Reporte img{
+    margin-left: 130px;
+    margin-top: 30px;
+    width: 380px;
+    height: 230px;
+    float: left;
+}
+.targ-Reporte h1{
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+/*Diseño de Targeta de Ventas*/
+.targ-NVenta{
+    margin-top: 30px;
+    background: #C6AFC6;
+    float: left;
+    width: 400px;
+    height: 300px ;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-NVenta img{
+    width: 80px;
+    float: left;
+}
+.targ-NVenta h1{
+    color: #ffffff;
+    font-size: 40px;
+    padding-right: 20px;
+
+}
+
+
+    /*Diseño de la Vista de Cliente*/
+/*Diseño del formulario para cliente*/
+.formcliente{
+    margin-top: 30px;
+    background: #ffffff;
+    width: 1000px;
+    min-height: 200px;
+    margin-left: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 3px 5px 9px #333333;
+}
+.txtdatos{
+    width: 360px;
+    padding: 12px 20px;
+    margin: 18px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.txtdireccion{
+    width: 360px;
+    padding: 12px 370px;
+    margin: 18px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.txttelefono{
+    width: 360px;
+    padding: 12px 20px;
+    margin: 18px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.txtcorreo{
+    width: 360px;
+    padding: 12px 40px;
+    margin: 18px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.guardar{
+    border-radius: 25px;
+    width: 300px;
+    height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #C6AFC6;
+    border-style: hidden;
+    float: right;
+    margin-right: 40px;
+}
+
+/*Diseño de la tabla con registros de clientes*/
+.datostabla{
+    margin: 25px 0;
+    font-size: 1cm;
+    width: 1000px;
+    border: #846d74 1px solid;
+}
+.datostabla thead td, th{
+    background-color: #C6AFC6;
+    color: #000000;
+    font-size: 36.6px;
+    text-align: middle;
+    border: #846d74 1px solid;
+}
+.datostabla tr:nth-child(add){
+    background: #846d74;
+}
+.datostabla tr:nth-child(even){
+    background: #cccccc;
+}
+
+.datostabla tr td{
+    font-size: 20px;
+}
+.datostabla tr td img{
+    width: 20px;
+    margin-right: 30px;
+}
+
+    /*Diseño de la vista de servicios*/
+/*Diseño de formulario de Servicios*/
+.formservicio{
+    margin-top: 30px;
+    background: #ffffff;
+    width: 1000px;
+    min-height: 200px;
+    margin-left: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 3px 5px 9px #333333;
+}
+.txtservicio{
+    min-width: 650px;
+    padding: 12px 20px;
+    margin: 18px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.txtcosto{
+    min-width: 250px;
+    padding: 12px 20px;
+    margin: 18px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+    /*Diseño de la vista de trabajadores*/
+/*Diseño del formulario de trabajadores*/
+.formtrabajador{
+    margin-top: 30px;
+    background: #ffffff;
+    width: 1000px;
+    min-height: 200px;
+    margin-left: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 3px 5px 9px #333333;
+}
+.txtdatos{
+    min-width: 360px;
+    padding: 12px 20px;
+    margin: 18px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.txtdireccion{
+    min-width: 360px;
+    padding: 12px 370px;
+    margin: 18px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.txtcorreo{
+    min-width: 360px;
+    padding: 12px 20px;
+    margin: 18px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.txtcontrasena{
+    width: 360px;
+    padding: 12px 40px;
+    margin: 18px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.tipo{
+    width: 360px;
+    padding: 12px 40px;
+    margin: 18px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+    /*Diseño de Vista de Ventas*/
+.targ-Empleado{
+    
+    background: #ecececff;
+    float: left;
+    width: 360px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Empleado h1{
+    color: #000000;
+    font-size: 20px;
+}
+.empleado{
+    width: 360px;
+    padding: 12px 40px;
+    margin: 18px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.targ-Serv{
+    
+    background: #ecececff;
+    float: left;
+    width: 360px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Serv h1{
+    color: #000000;
+    font-size: 20px;
+}
+.serv{
+    width: 360px;
+    padding: 12px 40px;
+    margin: 18px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.targ-Vehiculo{
+    
+    background: #ecececff;
+    float: left;
+    width: 360px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Vehiculo h1{
+    color: #000000;
+    font-size: 20px;
+}
+.vehiculo{
+    width: 360px;
+    padding: 12px 40px;
+    margin: 18px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.formventas{
+    
+    background: #ecececff;
+    float: left;
+    width: 500px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.datostablav{
+    margin: 10px 0;
+    font-size: 1cm;
+    min-width: 500px;
+    border: #846d74 1px solid;
+}
+.datostablav thead td, th{
+    background-color: #C6AFC6;
+    color: #000000;
+    font-size: 36.6px;
+    text-align: middle;
+    border: #846d74 1px solid;
+}
+.datostablav tr:nth-child(add){
+    background: #846d74;
+}
+.datostablav tr:nth-child(even){
+    background: #cccccc;
+}
+
+.datostablav tr td{
+    font-size: 20px;
+}
+.datostablav tr td img{
+    width: 20px;
+    margin-right: 30px;
+}
+
+.targ-Total{
+    
+    background: #ecececff;
+    float: left;
+    width: 360px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 25px;
+    text-align: right;
+    padding: 2vh;
+}
+.targ-Total h1{
+    color: #000000;
+    font-size: 30px;
+}
+.targ-Total h3{
+    color: #8a5082;
+    font-size: 20px;
+}
+
+    /*Salir*/
+.targ-Salir{
+    background: #9C93B5;
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    text-align:center;
+    padding: 2vh;
+}
+.targ-Salir h1{
+    color: #ffffff;
+}
+.si{
+    border-radius: 25px;
+    width: 100px;
+    height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #705f93;
+    border-style: hidden;
+    float: right;
+}
+.no{
+    border-radius: 25px;
+    width: 100px;
+    height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #8a5082;
+    border-style: hidden;
+    float: left;
+}
+
+@media screen and (max-width: 800px) {
+    .menu{
+        width: 40px;
+    }
+    .menu h1{
+        color: #9C93B5;
+    }
+    .panel{
+        width: 740px;
+    }
+    .targ-Reporte{
+        width: 650px;
+    }
+    .formcliente{
+        width: 700px;
+    }
+    .txtdireccion{
+        padding: 12px 100px;
+    }
+    .datostabla{
+        width: 600px;
+    }    
+    .datostabla thead td, th{
+        font-size: 25px;
+    }
+    .datostabla tr td{
+        font-size: 15px;
+    }
+    .formservicio{
+        width: 700px;
+    }
+    .formtrabajador{
+        width: 700px;
+    }
+    .targ-Salir{
+        margin-left: 100px;
+    }
+}
